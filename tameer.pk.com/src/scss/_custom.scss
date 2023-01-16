@@ -1,0 +1,56 @@
+// Here you can add other styles
+
+.projectDeleteIcon {
+  right: 20px;
+  top: 0;
+  cursor: pointer;
+}
+.projectUpdateIcon {
+  right: 60px;
+  top: 0;
+  cursor: pointer;
+}
+
+.pointer-cursor {
+  cursor: pointer;
+}
+
+.searchProjectsInput {
+  width: 300px;
+  margin-left: 10px;
+}
+
+.searchProjectsSelect {
+  width: 300px;
+  margin-left: auto;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li {
+  cursor: pointer;
+  margin: 0 5px;
+  padding: 5px 15px;
+  border: 1px solid #ccc;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.pagination li.active {
+  background-color: #0a357e;
+  color: #fff;
+}
+
+.pagination li.disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.descriptionWidth{
+  width: 800px !important;
+}
